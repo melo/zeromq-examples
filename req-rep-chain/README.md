@@ -20,7 +20,7 @@ The second level of load-balancers will connect to 8124 of the first,
 and accept service workers on ports 8125 and 8126.
 
     ./queue.pl --id=lb-2.1 --in=8124 -out=:8125
-    ./queue.pl --id=lb-2.2 --in=8124 -out=:8125
+    ./queue.pl --id=lb-2.2 --in=8124 -out=:8126
 
 ## Service workers ##
 
